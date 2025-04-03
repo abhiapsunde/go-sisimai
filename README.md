@@ -13,7 +13,7 @@
 > results in any environment as long as it is a language that can read JSON, such as PHP, Java,
 > Python, and Rust.
 
-- [**README-JA(日本�**](README-JA.md)
+- [**README-JA(æ—¥æœ¬èª**](README-JA.md)
 - [What is Sisimai](#what-is-sisimai)
     - [The key features of Sisimai](#the-key-features-of-sisimai)
     - [Command line demo](#command-line-demo)
@@ -133,7 +133,7 @@ func main() {
         cv, _ := e.Dump()
         fmt.Printf("%s\n",cv)
     }
-    if len(*nyaan) > 0 { fmt.Frpintf(os.Stderr, "%v\n", *nyaan) }
+    if len(*nyaan) > 0 { fmt.Fprintf(os.Stderr, "%v\n", *nyaan) }
 }
 ```
 
@@ -428,7 +428,7 @@ Related sites
 
 See also
 ---------------------------------------------------------------------------------------------------
-* [README-JA.md - README.md in Japanese(日本�](https://github.com/sisimai/go-sisimai/blob/5-stable/README-JA.md)
+* [README-JA.md - README.md in Japanese(æ—¥æœ¬èª](https://github.com/sisimai/go-sisimai/blob/5-stable/README-JA.md)
 * [RFC3463 - Enhanced Mail System Status Codes](https://tools.ietf.org/html/rfc3463)
 * [RFC3464 - An Extensible Message Format for Delivery Status Notifications](https://tools.ietf.org/html/rfc3464)
 * [RFC3834 - Recommendations for Automatic Responses to Electronic Mail](https://tools.ietf.org/html/rfc3834)
